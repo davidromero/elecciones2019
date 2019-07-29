@@ -1,0 +1,31 @@
+#!/bin/bash
+#: Title	:  ele
+#: Date		:  2019-06-17\
+#: Author	:  "David Romero
+#: Version	:  1.0
+#: Description	:  Descargar las papeletas de las elecciones
+#: Options	:  None
+
+#limite de 9999
+# lleva mucho descargar todas una a una, utilizar multi-threading para descargar por Batch
+
+for i in {1..1000}
+do
+	if [ "$i" -lt 10 ]
+	then
+		wget https://resultados2019.blob.core.windows.net/201901/0000${i}{1..5}.jpg
+	else
+		if [ "$i" -lt 100 ]
+		then
+			wget https://resultados2019.blob.core.windows.net/201901/000${i}{1..5}.jpg
+		else
+			if [ "$i" -lt 1000 ]
+			then
+				wget https://resultados2019.blob.core.windows.net/201901/00${i}{1..5}.jpg
+			else
+				wget https://resultados2019.blob.core.windows.net/201901/0${i}{1..5}.jpg
+			fi
+		fi
+	fi
+done
+
