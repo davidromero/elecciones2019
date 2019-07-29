@@ -1,3 +1,5 @@
+![alt text](https://github.com/davidromero/elecciones2019/blob/master/boleta.png "Boleta Ejemplo")
+
 ## Description
 
 Con toda la novela en desarrollo llamada Politica de Guatemala, decidi tomar iniciativa...
