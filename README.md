@@ -3,7 +3,9 @@
 ## Description
 
 Con toda la novela en desarrollo llamada Politica de Guatemala, decidi tomar iniciativa...
-Reporsitorio por el momento utilizado como "Archive" Archivo names.txt contiene el nombre de las boletas en .jpg.
+Repositorio por el momento utilizado como "Archive"
+
+Names.txt contiene el nombre de las boletas en .jpg
 
 Por persona son 5 Boletas
 
@@ -19,11 +21,11 @@ Por persona son 5 Boletas
  wget https://resultados2019.blob.core.windows.net/201901/{num_boleta}
 ```
 
-Las boletas estan numeradas desde la 000011.jpg ...
+Las boletas estan numeradas desde la 000011.jpg, 000012.jpg, 000013.jpg, 000014.jpg, 000015.jpg, 000021.jpg, 000022.jpg ...
 
 Las imagenes tienen una resolucion de 1700x2200px
 
-Las imegenes tienen un tama;o aprox de 536.9 kB
+Las imegenes tienen un tama;o aprox de 550 kB
 ## Notes
 
 El Script en Bash se puede mejorar, disminuir el tiempo de descarga total 
